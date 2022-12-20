@@ -7,7 +7,7 @@ from pandas.api.types import (
     is_object_dtype
 )
 
-st.title("Filter your Airbnb Listings dataframe!")
+st.title("Controlla il prezzo aggiornato dei Carburanti")
 
 st.write(
     """This app is based on this blog [here](https://blog.streamlit.io/auto-generate-a-dataframe-filtering-ui-in-streamlit-with-filter_dataframe/). 
