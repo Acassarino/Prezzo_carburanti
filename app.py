@@ -98,6 +98,7 @@ st.dataframe(filter_dataframe(df))
 
 st.write(
     """Applicazione basata sui dati rilevati al seguente link [here](https://www.mise.gov.it/index.php/it/open-data/elenco-dataset/carburanti-prezzi-praticati-e-anagrafica-degli-impianti?wsdl?wsdl?wsdl). 
-    La licenza è la [IODL 2.0] (http://www.dati.gov.it/iodl/2.0/)
     """
-)
+st.write( """La licenza è la [IODL 2.0] (http://www.dati.gov.it/iodl/2.0/)""")
+
+st.write( 'Lavoro a cura di Andrea Cassarino, :mail:  ing.acassarino@gmail.com')
