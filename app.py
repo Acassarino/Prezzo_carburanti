@@ -9,11 +9,11 @@ from pandas.api.types import (
 
 st.title("Controlla il prezzo aggiornato dei Carburanti")
 
-st.write(
-    """This app is based on this blog [here](https://blog.streamlit.io/auto-generate-a-dataframe-filtering-ui-in-streamlit-with-filter_dataframe/). 
-    Can you think of ways to extend it with visuals?
-    """
-)
+#st.write(
+#    """This app is based on this blog [here](https://blog.streamlit.io/auto-generate-a-dataframe-filtering-ui-in-streamlit-with-filter_dataframe/). 
+#    Can you think of ways to extend it with visuals?
+#    """
+#)
 
 
 def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
@@ -95,3 +95,9 @@ df = pd.read_csv(
     "Carburanti-distributori.csv", index_col=0
 )
 st.dataframe(filter_dataframe(df))
+
+st.write(
+    """Applicazione basata sui dati rilevati al seguente link [here](https://www.mise.gov.it/index.php/it/open-data/elenco-dataset/carburanti-prezzi-praticati-e-anagrafica-degli-impianti?wsdl?wsdl?wsdl). 
+    La licenza è la [IODL 2.0] (http://www.dati.gov.it/iodl/2.0/)
+    """
+)
