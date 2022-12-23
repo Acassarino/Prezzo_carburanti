@@ -40,7 +40,7 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
                 pass
 
         if is_datetime64_any_dtype(df[col]):
-            df[col] = df[col].dt.tz_localize(timezone=''Europe/Berlin'')
+            df[col] = df[col].dt.tz_localize(timezone='Europe/Berlin')
 
     modification_container = st.container()
 
