@@ -8,7 +8,7 @@ from pandas.api.types import (
 )
 
 st.title("Controlla il prezzo aggiornato dei Carburanti")
-st.title(df_aggiornamento)
+#st.title(df_aggiornamento)
 #st.write(
 #    """This app is based on this blog [here](https://blog.streamlit.io/auto-generate-a-dataframe-filtering-ui-in-streamlit-with-filter_dataframe/). 
 #    Can you think of ways to extend it with visuals?
