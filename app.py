@@ -101,4 +101,8 @@ st.write(
     """)
 st.write( """La licenza è la [IODL 2.0] (http://www.dati.gov.it/iodl/2.0/)""")
 
-st.write( 'Lavoro a cura di Andrea Cassarino, :mail:  ing.acassarino@gmail.com')
+st.write( 'Lavoro a cura di Andrea Cassarino')
+st.write( 'Email:  ing.acassarino@gmail.com')
+
+html_string = "<h3>Beta test</h3>"
+st.markdown(html_string, unsafe_allow_html=True)
