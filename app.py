@@ -8,7 +8,7 @@ from pandas.api.types import (
 )
 
 st.title("Controlla il prezzo aggiornato dei Carburanti")
-
+st.title(df_aggiornamento)
 #st.write(
 #    """This app is based on this blog [here](https://blog.streamlit.io/auto-generate-a-dataframe-filtering-ui-in-streamlit-with-filter_dataframe/). 
 #    Can you think of ways to extend it with visuals?
@@ -24,7 +24,7 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         pd.DataFrame: Filtered dataframe
     """
-    modify = st.checkbox("Add filters")
+    modify = st.checkbox("Aggiungi Filtri")
 
     if not modify:
         return df
@@ -45,7 +45,7 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     modification_container = st.container()
 
     with modification_container:
-        to_filter_columns = st.multiselect("Filter dataframe on", df.columns)
+        to_filter_columns = st.multiselect("Filtro attivo", df.columns)
         for column in to_filter_columns:
             left, right = st.columns((1, 20))
             left.write("↳")
