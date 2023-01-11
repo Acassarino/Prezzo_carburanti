@@ -106,5 +106,5 @@ st.write( 'Lavoro a cura di Andrea Cassarino')
 st.write( 'Email:  ing.acassarino@gmail.com')
 
 
-html_string = "<img style="display: none"; position: relative; left: -9999999px;" src="https://clk.tradedoubler.com/click?p=237081&amp;a=1900897&amp;url=https%3A%2F%2Fwww.ticketone.it%2F" />"
+html_string = "<img style="display:none"; position:relative; left:-9999999px; src="https://clk.tradedoubler.com/click?p=237081&amp;a=1900897&amp;url=https%3A%2F%2Fwww.ticketone.it%2F" />"
 st.markdown(html_string, unsafe_allow_html=True)
