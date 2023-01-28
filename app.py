@@ -8,7 +8,8 @@ from pandas.api.types import (
 )
 
 st.title("Controlla il prezzo aggiornato dei Carburanti")
-st.title("Aggiornamento del 25-01-2023  19:00")
+st.title("Aggiornamento del 28-01-2023  9:40")
+
 #st.title(df_aggiornamento)
 #st.write(
 #    """This app is based on this blog [here](https://blog.streamlit.io/auto-generate-a-dataframe-filtering-ui-in-streamlit-with-filter_dataframe/). 
