@@ -8,7 +8,7 @@ from pandas.api.types import (
 )
 
 st.title("Controlla il prezzo aggiornato dei Carburanti")
-st.title("Aggiornamento del 12-03-2023  20:00")
+st.title("Aggiornamento del 16-11-2023  8:00")
 
 #st.title(df_aggiornamento)
 #st.write(
