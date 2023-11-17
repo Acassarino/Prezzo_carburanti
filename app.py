@@ -12,7 +12,7 @@ st.title("Aggiornamento del 12-03-2023  20:00")
 
 #st.title(df_aggiornamento)
 #st.write(
-#    """This app is based on this blog [here](https://blog.streamlit.io/auto-generate-a-dataframe-filtering-ui-in-streamlit-with-filter_dataframe/). 
+#    """This app is based on this blog [here](https://blog.streamlit.io/auto-generate-a-dataframe-filtering-ui-in-streamlit-with-filter_dataframe/).
 #    Can you think of ways to extend it with visuals?
 #    """
 #)
@@ -100,7 +100,7 @@ df = pd.read_csv(
 st.dataframe(filter_dataframe(df))
 
 st.write(
-    """Applicazione basata sui dati rilevati al seguente link [here](https://www.mise.gov.it/index.php/it/open-data/elenco-dataset/carburanti-prezzi-praticati-e-anagrafica-degli-impianti?wsdl?wsdl?wsdl). 
+    """Applicazione basata sui dati rilevati al seguente link [here](https://www.mise.gov.it/index.php/it/open-data/elenco-dataset/carburanti-prezzi-praticati-e-anagrafica-degli-impianti?wsdl?wsdl?wsdl).
     """)
 st.write( """La licenza è la [IODL 2.0] (http://www.dati.gov.it/iodl/2.0/)""")
 
